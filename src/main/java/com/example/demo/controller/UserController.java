@@ -30,7 +30,7 @@ public class UserController {
                                @RequestParam String password,
                                HttpSession session) {
         // Password adalah NIM Anda masing-masing [cite: 1937]
-        if ("admin".equals(username) && "20230140216".equals(password)) {
+        if ("admin".equals(username) && "20230140217".equals(password)) {
             session.setAttribute("user", username);
             return "redirect:/home";
         }
